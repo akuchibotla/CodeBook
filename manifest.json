@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "CodeBook",
+  "description": "Makes it look like you're coding when you're chatting",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*.facebook.com/", "https://*.facebook.com/", "http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
