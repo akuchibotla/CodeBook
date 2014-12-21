@@ -6,7 +6,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["http://*.facebook.com/", "https://*.facebook.com/", "http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "matches": ["https://www.facebook.com/messages/*", "http://www.facebook.com/messages/*"],
       "js": ["myscript.js"]
     }
   ]

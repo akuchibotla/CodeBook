@@ -16,6 +16,23 @@ run = function () {
 		win.style.fontFamily="Courier";
 		win.style.borderStyle = "none";
 		win.style.color="white";
+		win.getElementsByClassName("_2nb")[0].style.borderLeft="none";
+		win.getElementsByTagName("h2")[0].style.color="white";
+		win.getElementsByTagName("h2")[0].style.fontSize="13px";
+		win.getElementsByClassName("_2nd rfloat _ohf")[0].style.visibility="hidden";
+
+		// Stylize reply box
+		win.getElementsByClassName("_1rs")[0].style.backgroundColor="black";
+		win.getElementsByClassName("_1rs")[0].style.BorderTop="none";
+		win.getElementsByClassName("_2pt")[0].style.backgroundColor="black";
+		win.getElementsByClassName("_2pt")[0].style.border="none";
+		win.getElementsByClassName("_1r-")[0].style.visibility="hidden";
+		win.getElementsByClassName("_1r-")[0].style.visibility="visible";
+		win.getElementsByClassName("_1rw")[0].style.visibility="hidden";
+		win.getElementsByClassName("emoteTogglerImg")[0].style.visibility="hidden";
+		win.getElementsByTagName("textarea")[0].style.color="white";
+		win.getElementsByTagName("textarea")[0].style.fontFamily="Courier";
+		win.getElementsByTagName("textarea")[0].style.background="black";
 
 		// Hide all images
 		images = win.getElementsByTagName("img");
